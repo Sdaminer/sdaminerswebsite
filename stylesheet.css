@@ -1,0 +1,30 @@
+/* css/stylesheet.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4CAF50;
+  text-align: center;
+  padding: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: auto;
+}
+
+strong {
+  color: #FF5722;
+}
