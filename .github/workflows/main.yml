@@ -1,3 +1,0 @@
-              - name: Azure DevOps NPM
-                uses: ponicode/azure-devops-npm-action@1.0.0
-            
