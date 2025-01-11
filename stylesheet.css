@@ -1,8 +1,9 @@
 body {
-  background-color: #fdf6e3; /* Light paper-like color */
-  border: 1px solid #e3e3e3; /* Light gray border to mimic paper edges */
-  border-radius: 5px; /* Slight rounding of edges */
-  font-family: 'Georgia', serif; /* More classic font */
+  background-color: #1c1c1c; /* Dark background to mimic a cinema hall */
+  border: none;
+  border-radius: 0;
+  font-family: 'Arial', sans-serif; /* Modern font */
+  color: #e0e0e0; /* Light gray text color */
   margin-left: auto;
   margin-right: auto;
   max-width: var(--max-width);
@@ -10,26 +11,27 @@ body {
   padding-top: var(--padding);
   padding-left: var(--padding);
   padding-right: var(--padding);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  box-shadow: none;
 }
 
 html {
-  background: #f0e6d6; /* Background color similar to paper */
+  background: #0b0b0b; /* Dark background color */
 }
 
 nav ul {
   list-style-type: none;
-  background-color: #fdf6e3; /* Match the paper color */
-  border: 1px solid #e3e3e3; /* Light gray border */
-  border-radius: 5px;
-  font-family: 'Georgia', serif; /* Match the body font */
-  font-weight: normal; /* More classic weight */
+  background-color: #333333; /* Dark background to match cinema theme */
+  border: none;
+  border-radius: 0;
+  font-family: 'Arial', sans-serif; /* Match the body font */
+  font-weight: bold; /* Bold text for navigation */
   padding: 16px;
+  color: #e0e0e0; /* Light gray text color */
 }
 
 nav ul li {
   display: inline;
-  border-right: 1px solid #e3e3e3; /* Match the border color */
+  border-right: 1px solid #555555; /* Light gray border for separation */
   padding-right: 8px;
   padding-left: 8px;
 }
@@ -40,5 +42,9 @@ nav ul li:last-child {
 
 nav ul li a {
   text-decoration: none;
-  color: #111111;
+  color: #e0e0e0; /* Light gray text color */
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Cinema-like gold color on hover */
 }
